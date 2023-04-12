@@ -5,10 +5,10 @@
     --nav-bar-color: #ffefed;
 }
 
-@font-face {
+/* @font-face {
     font-family: purpleSmile;
     src: url(../font/Purple\ Smile.ttf);
-}
+} */
 
 body {
     font-family: purpleSmile, Arial, Helvetica, sans-serif;
@@ -65,7 +65,7 @@ hr{
 }
 
 img {
-    position: fixed;
+    position: absolute;
     top: 43%;
     left: 67%;
     transform: translate(-50%, -50%);
@@ -84,7 +84,7 @@ img {
 }
 
 .citation {
-    position: fixed;
+    position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -93,8 +93,8 @@ img {
 }
 
 .footer {
-    position: fixed;
-    bottom: 3%; 
+    position: absolute;
+    top: 140%; 
     left: 50%;
     color: #9d9694;
     font-size: 1.1vw;

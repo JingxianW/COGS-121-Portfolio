@@ -29,10 +29,10 @@ nav a {
     color: #967E76;
 }
 
-@font-face {
+/* @font-face {
     font-family: purpleSmile;
     src: url(../font/Purple\ Smile.ttf);
-}
+} */
 
 body {
     font-family: purpleSmile, Arial, Helvetica, sans-serif;
