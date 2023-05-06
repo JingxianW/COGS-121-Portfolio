@@ -93,11 +93,16 @@ img {
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
+    bottom: 3%; 
+    left: 42%;
+    color: #9d9694;
+    font-size: 1.1vw;
+    /* position: absolute;
     top: 140%; 
     left: 50%;
     color: #9d9694;
-    font-size: 1.1vw;
+    font-size: 1.1vw; */
 }
 
 

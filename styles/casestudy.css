@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav a:hover {
+    color: #ffebbb;
+    -webkit-text-stroke: 1.5px #967E76;
+}    
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #ffefed;
+    font-size: clamp(.95rem, 1.5vw, 1.45rem);
+    width:100%
+}
+
+nav a {
+    text-decoration: none;
+    color: #967E76;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fbefefd4;
+}
+
+hr{
+    height: 1px;
+    background-color: #967e765d;
+    border: none;
+}
+
+h1 {
+    position: relative;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center; 
+    text-shadow: 0.3vw 0.25vw #bda8a1;
+    font-size: 3.2vw;
+    color: #43312b;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Spreads the cards out horizontally */
+}
+
+.card1 {
+    width: 90%;
+    max-width: 440px;
+    background-color: #efdbd4;
+    color: #43312b;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.card1 h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card1 p {
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 330px;
+}
+
+.btn1 {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    background: #f4eeee;
+    color: #43312b;
+    padding: 10px 50px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+}
+
+.card2 {
+    width: 90%;
+    max-width: 440px;
+    background-color: #ffffff00;
+    color: #43312b;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.card2 h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card2 p {
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 330px;
+}
+
+.btn2 {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    background: #efdbd4;
+    color: #43312b;
+    padding: 10px 50px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 3%; 
+    left: 42%;
+    color: #9d9694;
+    font-size: 1.1vw;
+} 
