@@ -23,6 +23,12 @@
     <p class="problem-statement">People need to know about the relationship between the housing prices and earthquakes in the location of where they want to live in order to make a wise decision on whether they should buy the house there. Bad choices might cause financial issues and health problems. 
     </p>
 
+    <div>
+        <h2>Solution</h2>
+        <p>A data science research that explores the relationship between housing prices and earthquake frequencies and magnitudes in California.
+        </p>
+    </div>
+
     <div class="background">
         <h2>Background</h2>  
         <p>Imagine you and your family live in a beautiful and peaceful city in California. You go to school, hang out with your friends, spend time with your family. You love this place, feel happiness and enjoy your life. Suddenly, everything changed. The ground starts to shake violently, and everyone is in panic. Even if it is not a big earthquake, it is enough to make everyone worried and live in anxiety. 
@@ -31,18 +37,13 @@
         </p>
     </div>
 
-    <div>
-        <h2>Solution</h2>
-        <p>A data science research that explores the relationship between housing prices and earthquake frequencies and magnitudes in California.
-        </p>
-    </div>
     
     <div>
         <h2>My Role</h2>
         <ul>
-            <li>Demonstrating the distribution of the data - Python</li>
-            <li>Provided a description of the data - Critical thinking</li>
-            <li>Wrote ethics and privacy</li>
+            <li><b>Demonstrating the distribution of the data</b> - Python</li>
+            <li><b>Provided a description of the data</b> - Critical thinking</li>
+            <li><b>Wrote ethics and privacy</b></li>
         </ul>
     </div>
 
@@ -51,29 +52,42 @@
 
         <div>
             <h3>Transforming Raw Data into Actionable Insights - The Data Gathering and Cleansing Process</h3>
-            <p>[Include a gif of the report of data cleaning part]
+            
+                <video autoplay loop width="480" height="360" class="video1" muted>
+                <source src="../images/cogs121/data cleaning.mp4" type="video/mp4" >
+                Your browser does not support the video tag.
+                 </video> 
+                <figcaption>The above gif desplays the process of data cleaning</figcaption>
+                <p class="p1"><br><br>
+                During the early stages of our research, we spent a couple of days browsing the internet to find suitable databases that would allow us to analyze the relationship between housing prices and earthquakes in California. We knew that finding a useful dataset would be crucial for our future research and analysis. After several attempts, we found a large dataset containing information on earthquake occurrences, housing prices, and other relevant data.
                 <br><br>
-                During the early stages of our research, we spent a couple of days browsing the internet to find suitable databases that would allow us to analyze the relationship between housing prices and earthquakes in California. We knew that finding the right and useful dataset would be crucial in our future research and analysis. After several attempts, we found a large dataset containing information on earthquake occurrences, housing prices, and other relevant data.
+                However, as our research was focused solely on exploring the relationship between housing prices and earthquakes in California, we needed to filter the dataset to remove any unnecessary data, such as magError and deepError. Specifically, we filtered the earthquake data to include only those that occurred in California and then narrowed down the area around each housing location. This helped us to calculate the total number of earthquakes that had occurred in that area and remove any redundancy in the data.
                 <br><br>
-                However, as our research was focused solely on exploring the relationship between housing prices and earthquakes in California, we needed to filter the dataset to remove any unnecessary data, such as magError, deepError, etc. Specifically, we filtered the earthquake data to include only those that occurred in California, and then filtered the range of the area around each housing location. This helped us to calculate the total number of earthquakes that have happened in that area and remove any redundancy in the data.
+                As we analyzed the data, we discovered an interesting pattern: there were two types of earthquakes - natural earthquakes and earthquakes caused by quarry blasts. We calculated the total number of each type of earthquake in each area, which provided us with valuable insights into the impact of different types of earthquakes on the housing market.
                 <br><br>
-                As we were analyzing the data, we discovered an interesting pattern, there were two types of earthquakes, natural earthquakes and earthquakes caused by quarry blasts. We calculated the total number of each natural earthquake and the earthquakes caused by quarry blasts in each area, which provided us with valuable insights into the impact of different types of earthquakes on the housing market.
-                <br><br>
-                In retrospect, I believe that we could have done a better job in our data cleaning process. For example, we could have used more advanced data cleaning techniques to remove any outliers and ensure that our data was accurate and reliable. However, given the limited time and resources we had at the time, we made the best decisions we could with the data we had available. 
+                In retrospect, I believe that we could have done a better job in our data cleaning process. For example, we could have used more advanced data cleaning techniques to remove any outliers and ensure the accuracy and reliability of our data. However, given the limited time and resources we had, we made the best decisions we could with the data available.
                 <br><br>
                 Overall, our data gathering and cleaning process helped us to obtain valuable insights into the relationship between housing prices and earthquakes in California.
-                </p>
+            </p>
         </div>
 
         <div>
             <h3>Uncovering Insights from Data: An Analysis of Housing Prices and Earthquakes in California</h3>
-            <p>In the process of analyzing the data, we first decided to demonstrate the distribution of earthquake magnitude using a histogram. Since we were only looking at one variable, histograms were an effective way to visualize the distribution of the data. While creating the histogram, we noticed that there were outliers in the count of natural earthquakes and the count of earthquakes caused by quarry blasts in different regions. These outliers could potentially skew our results and make it difficult to draw accurate conclusions. To prevent these outliers from affecting our analysis, we decided to remove them before demonstrating the distribution of the two types of earthquake counts.
-                <br><br>
-                [Include a gif of the report of histogram]
+            <p>During our data analysis, we first decided to demonstrate the distribution of earthquake magnitude using a histogram. Since we were only looking at one variable, histograms were an effective way to visualize the distribution of the data. While creating the histogram, we noticed that there were outliers in the count of natural earthquakes and the count of earthquakes caused by quarry blasts in different regions. These outliers could potentially skew our results and make it difficult to draw accurate conclusions. To prevent these outliers from affecting our analysis, we decided to remove them before demonstrating the distribution of the two types of earthquake counts.</p>
+                
+                <div class="row">
+                    <img src="../images/cogs121/histogram1.jpg" alt="histogram1" width="40%" height="auto">
+                    <img src="../images/cogs121/histogram3.jpg" alt="histogram2" width="41%" height="auto">
+                    <img src="../images/cogs121/histogram2.jpg" alt="histogram3" width="82%" height="auto">
+                </div>
+                <p>
                 <br><br>
                 After demonstrating the distribution of earthquake counts, we applied an Ordinary Least Squares (OLS) model to predict the relationship between housing prices and earthquakes. The OLS model allowed us to determine if there was any significant correlation between the two variables. Our analysis revealed that there was no significant correlation between earthquake frequencies and magnitudes and housing prices in California.
-                <br><br>
-                [Include a image of the report of OLS model]
+                </p>
+                <div class="image-container">
+                    <img src="../images/cogs121/ols_model.jpg" alt="OSL Model" width="50%" height="auto">
+                </div>
+                <p>
                 <br><br>
                 In retrospect, one thing we could have done to improve the analysis would have been to use a different model or approach to analyze the relationship between housing prices and earthquakes. While the OLS model we used is a common and effective method, there may have been other models or techniques that could have yielded different results or provided additional insights.
                 <br><br>
@@ -81,7 +95,7 @@
                 <br><br>
                 If we had more time, we would have looked at other variables that could affect housing prices, such as proximity to transportation, schools, or crime rates. Furthermore, we would have analyzed the data using other models, such as a multiple regression model, to see if any other factors had a significant impact on housing prices. However, we chose to focus on the relationship between earthquakes and housing prices at that time because it was relevant to our research question.
                 <br><br>
-                Overall, I learned that analyzing data is not just about crunching numbers and running models; it also involves effectively communicating the findings to others. This is why I learned the importance of demonstrating clear and concise ways to present the data, both verbally and in writing. It is crucial to convey the information in a way that the audience can understand and use it. During the analysis process, I also realized that paying attention to details is paramount. The choice of diagrams and models, the presence of outliers, and other nuances can significantly impact the results. Thus, being attentive to detail is essential to ensure that the analysis is accurate and reliable. Collaboration is another vital aspect of data analysis. Each team member has unique talents and perspectives that contribute to the project's success. Collaborating with others allows us to share ideas, discuss issues, and find solutions collectively. It also helps in dividing the workload and completing the task efficiently. The analysis process was also a continuous decision-making process that required a lot of trial and error. Every step involved making crucial decisions that had a direct impact on the outcome. Therefore, being able to make informed decisions is critical to ensure that the project is successful.
+                <b>Overall, I learned that analyzing data is not just about crunching numbers and running models; it also involves effectively communicating the findings to others. This is why I learned the importance of demonstrating clear and concise ways to present the data, both verbally and in writing. It is crucial to convey the information in a way that the audience can understand and use it. During the analysis process, I also realized that paying attention to details is paramount. The choice of diagrams and models, the presence of outliers, and other nuances can significantly impact the results. Thus, being attentive to detail is essential to ensure that the analysis is accurate and reliable. Collaboration is another vital aspect of data analysis. Each team member has unique talents and perspectives that contribute to the project's success. Collaborating with others allows us to share ideas, discuss issues, and find solutions collectively. It also helps in dividing the workload and completing the task efficiently. The analysis process was also a continuous decision-making process that required a lot of trial and error. Every step involved making crucial decisions that had a direct impact on the outcome. Therefore, being able to make informed decisions is critical to ensure that the project is successful.</b>
                 </p>
         </div>
 
@@ -91,16 +105,20 @@
 
             <p>During the process of discussing ethics and privacy, I was given the responsibility to write this section. As I was writing, I came to the realization that making ethical decisions is crucial in any research. It's not just about obtaining data or information, but it's also about treating people fairly and respectfully.
                 <br><br>
-                One of the key things I learned is that ethical considerations should be taken seriously and given proper attention at every stage of the research process. It is not just an afterthought that needs to be addressed after the research is completed. Rather, it should be a continuous process that should be integrated into the research design and carried out throughout the research process.
+                <b>One of the key takeaways I learned is that ethical considerations should be taken seriously and given proper attention at every stage of the research process. It's not just an afterthought that needs to be addressed after the research is completed; rather, it should be a continuous process that's integrated into the research design and implemented throughout the research process.
                 <br><br>
-                Another aspect that I learned is the importance of respecting the privacy of individuals whose data is used in the research. As researchers, it is our responsibility to ensure that the data collected is used only for the intended purpose and that the privacy and confidentiality of the individuals involved are protected at all times. We should ensure that we have the necessary permissions and consents from the individuals involved, and that their data is securely stored and protected.
+                Another crucial aspect that I learned is the importance of respecting the privacy of individuals whose data is used in the research. As researchers, it's our responsibility to ensure that the data collected is used only for its intended purpose, and that the privacy and confidentiality of the individuals involved are safeguarded at all times. We must ensure that we have the necessary permissions and consents from the individuals involved and that their data is securely stored and protected.</b>
                 </p>
         </div>
     </section>
 
     <div>
         <h2 class="conclusion">Conclusion</h2>
-        <p>[URL of the research report]</p>
+
+        <a href="../images/finalprojectgroup067sp22.pdf" target="_blank">Click here to read the research paper!</a>
+        <br><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OOG0OHy6NYc" frameborder="0" allowfullscreen></iframe>
+
         <p>Our team's research aimed to explore the relationship between earthquakes and housing prices in California. However, we didn't find any significant correlation between these two variables. Although we didn't get the expected results, this project provided us with valuable insights and learnings. 
             <br><br>
             During the research and data analysis process, we came across interesting findings and unexpected outcomes that challenged our assumptions. These findings made us realize that the research and data analysis process can change, and decision making is crucial. We had to make several decisions, such as which dataset to use, how to filter and clean the data, which model to use, and how to handle outliers, that ultimately affected our results.
