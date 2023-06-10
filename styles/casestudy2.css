@@ -19,7 +19,7 @@ nav {
     align-items: center;
     justify-content: flex-start;
     padding: 20px;
-    background-color: #ffefed;
+    background-color: #fcfaf6;
     font-size: clamp(.95rem, 1.5vw, 1.45rem);
     width:100%
 }
@@ -35,7 +35,7 @@ nav a {
 
 body {
     font-family: purpleSmile, Arial, Helvetica, sans-serif;
-    background-color: #fbefefd4;
+    background-color: #fcfaf6;
 }
 
 hr{
@@ -50,7 +50,7 @@ h1 {
     padding: 20px;
     align-items: center;
     justify-content: center; 
-    text-shadow: 0.3vw 0.25vw #bda8a1;
+    /* text-shadow: 0.3vw 0.25vw #bda8a1; */
     font-size: 3.2vw;
     color: #43312b;
     margin: 5%;
